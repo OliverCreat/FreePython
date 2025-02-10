@@ -1,12 +1,11 @@
-age = 20
-firstName = "John"
-lastName = "Smith"
-newPatient = True
+name = input("Qual seu nome? ")
+birthYear = int(input("Qual o ano de nascimento? "))
+newPatient = input("É um novo paciente? (S/N) ")
+age = 2025 - birthYear
 
-print(firstName, lastName, "tem ", age, " anos")
-if (newPatient):
-    print(firstName, "é novo paciente")
+
+print(name, "tem ", age, " anos")
+if (newPatient == "S" or newPatient == "s"):
+    print(name, "é novo paciente")
 else:
-    print(firstName, "é paciente antigo")
-
-
+    print(name, "é paciente antigo")
