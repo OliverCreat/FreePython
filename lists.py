@@ -25,6 +25,9 @@ names.pop(1) #['Eve', 'Charlie', 'Bob'] pop is a function that removes the eleme
 print(repr(names)) #[] repr is a function that returns a string representation of the object
 print(names)
 names.clear() #[] clear is a function that removes all elements from the list
+names.insert(2, 'Raul') #['Raul'] insert an element in a specific position
+print(names)
+
 
 
 
